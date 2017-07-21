@@ -1,0 +1,25 @@
+<ion-view  ng-controller="layoutController" cache-view="false">
+	<ion-side-menus  enable-menu-with-back-views="true">
+		<!-- Left menu content-->
+		<ion-side-menu side="left" is-enabled="showMenuBtn">
+			<ion-nav-view name="left-content" class="left-menu-content"></ion-nav-view>
+			<button menu-close class="button button-full button-assertive app-leftmenu-logout-button" ng-click="closeSession()">
+				{{ 'login.LOG_OUT' | translate }}
+			</button>
+		</ion-side-menu>
+		<ion-side-menu-content drag-content="disabledDrag">
+			<!-- Application content -->
+			<ion-view cache-view="false">
+				<!-- Application Header -->
+				<ion-header-bar ng-show="showLayoutHeader" align-title="center" class="bar bar-header bar-assertive">
+					<button ng-show="showMenuBtn" class="button icon ion-navicon-round" menu-toggle="left"></button>
+					<h1 class="title">{{ 'general.APP_NAME' | translate }}</h1>
+					<button ng-show="showMenuBtn" class="button icon ion-android-exit" ng-click="closeSession()"></button>
+				</ion-header-bar>
+				<!-- Page Content -->
+				<!--<ion-content ng-controller="layoutController">-->
+				<ion-nav-view name="main-content"></ion-nav-view>
+			</ion-view>
+		</ion-side-menu-content>
+	</ion-side-menus>
+</ion-view>

@@ -1,0 +1,5 @@
+.app-leftmenu-logout-button {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0px !important;
+  z-index: 11; }

@@ -1,0 +1,351 @@
+@font-face {
+  font-family: 'atlantidaIcons';
+  src:  url('atlantidaIcons/fonts/atlantidaIcons.eot');
+  src:  url('atlantidaIcons/fonts/atlantidaIcons.eot') format('embedded-opentype'),
+    url('atlantidaIcons/fonts/atlantidaIcons.ttf') format('truetype'),
+    url('atlantidaIcons/fonts/atlantidaIcons.woff') format('woff'),
+    url('atlantidaIcons/fonts/atlantidaIcons.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="atlaicon-"], [class*=" atlaicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'atlantidaIcons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.atlaicon-userAdd:before {
+  content: "\e91c";
+}
+.atlaicon-userEdit:before {
+  content: "\e91d";
+}
+.atlaicon-banks:before {
+  content: "\e905";
+}
+.atlaicon-circleArrowRight:before {
+  content: "\e906";
+}
+.atlaicon-circleArrowUp:before {
+  content: "\e907";
+}
+.atlaicon-docSend:before {
+  content: "\e908";
+}
+.atlaicon-meeting:before {
+  content: "\e91a";
+}
+.atlaicon-moneyTransfer:before {
+  content: "\e91b";
+}
+.atlaicon-agent:before {
+  content: "\e900";
+}
+.atlaicon-alert:before {
+  content: "\e901";
+}
+.atlaicon-arrowRight:before {
+  content: "\e902";
+}
+.atlaicon-assistance:before {
+  content: "\e903";
+}
+.atlaicon-atm:before {
+  content: "\e904";
+}
+.atlaicon-book:before {
+  content: "\e909";
+}
+.atlaicon-briefcase:before {
+  content: "\e90a";
+}
+.atlaicon-building:before {
+  content: "\e90b";
+}
+.atlaicon-building2:before {
+  content: "\e90c";
+}
+.atlaicon-businessmen:before {
+  content: "\e90d";
+}
+.atlaicon-car:before {
+  content: "\e90e";
+}
+.atlaicon-cardBlock:before {
+  content: "\e90f";
+}
+.atlaicon-cardOk:before {
+  content: "\e910";
+}
+.atlaicon-cardSend:before {
+  content: "\e911";
+}
+.atlaicon-cart:before {
+  content: "\e912";
+}
+.atlaicon-cashIn:before {
+  content: "\e913";
+}
+.atlaicon-cashOut:before {
+  content: "\e914";
+}
+.atlaicon-cellphone:before {
+  content: "\e915";
+}
+.atlaicon-chart:before {
+  content: "\e916";
+}
+.atlaicon-chart2:before {
+  content: "\e917";
+}
+.atlaicon-check:before {
+  content: "\e918";
+}
+.atlaicon-church:before {
+  content: "\e919";
+}
+.atlaicon-cloud:before {
+  content: "\e91e";
+}
+.atlaicon-creditCard:before {
+  content: "\e91f";
+}
+.atlaicon-curvedArrowRight:before {
+  content: "\e920";
+}
+.atlaicon-data:before {
+  content: "\e921";
+}
+.atlaicon-delete:before {
+  content: "\e922";
+}
+.atlaicon-doc:before {
+  content: "\e923";
+}
+.atlaicon-docDelete:before {
+  content: "\e924";
+}
+.atlaicon-docLock:before {
+  content: "\e925";
+}
+.atlaicon-docPrinted:before {
+  content: "\e926";
+}
+.atlaicon-docs:before {
+  content: "\e927";
+}
+.atlaicon-docSave:before {
+  content: "\e928";
+}
+.atlaicon-docSearch:before {
+  content: "\e929";
+}
+.atlaicon-docUpload:before {
+  content: "\e92f";
+}
+.atlaicon-donation:before {
+  content: "\e930";
+}
+.atlaicon-down:before {
+  content: "\e931";
+}
+.atlaicon-download:before {
+  content: "\e932";
+}
+.atlaicon-edit:before {
+  content: "\e933";
+}
+.atlaicon-entreCtas:before {
+  content: "\e934";
+}
+.atlaicon-exit:before {
+  content: "\e935";
+}
+.atlaicon-family:before {
+  content: "\e936";
+}
+.atlaicon-fingerprint:before {
+  content: "\e937";
+}
+.atlaicon-flag:before {
+  content: "\e938";
+}
+.atlaicon-gear:before {
+  content: "\e939";
+}
+.atlaicon-graduation:before {
+  content: "\e93a";
+}
+.atlaicon-headquarter:before {
+  content: "\e93b";
+}
+.atlaicon-headquarter2:before {
+  content: "\e93c";
+}
+.atlaicon-hierarchy:before {
+  content: "\e93d";
+}
+.atlaicon-home:before {
+  content: "\e93e";
+}
+.atlaicon-home2:before {
+  content: "\e93f";
+}
+.atlaicon-idea:before {
+  content: "\e940";
+}
+.atlaicon-info:before {
+  content: "\e941";
+}
+.atlaicon-lightBulb:before {
+  content: "\e942";
+}
+.atlaicon-location:before {
+  content: "\e943";
+}
+.atlaicon-lock:before {
+  content: "\e944";
+}
+.atlaicon-meeting2:before {
+  content: "\e94c";
+}
+.atlaicon-message:before {
+  content: "\e94d";
+}
+.atlaicon-money:before {
+  content: "\e94e";
+}
+.atlaicon-moneyTransfer2:before {
+  content: "\e953";
+}
+.atlaicon-monitor:before {
+  content: "\e954";
+}
+.atlaicon-noLps:before {
+  content: "\e955";
+}
+.atlaicon-payment:before {
+  content: "\e956";
+}
+.atlaicon-phone:before {
+  content: "\e957";
+}
+.atlaicon-phone2:before {
+  content: "\e958";
+}
+.atlaicon-port:before {
+  content: "\e959";
+}
+.atlaicon-print:before {
+  content: "\e95a";
+}
+.atlaicon-printer:before {
+  content: "\e95b";
+}
+.atlaicon-question:before {
+  content: "\e95c";
+}
+.atlaicon-questionBuble:before {
+  content: "\e95d";
+}
+.atlaicon-safe:before {
+  content: "\e95e";
+}
+.atlaicon-safe2:before {
+  content: "\e95f";
+}
+.atlaicon-save:before {
+  content: "\e960";
+}
+.atlaicon-screen:before {
+  content: "\e961";
+}
+.atlaicon-search:before {
+  content: "\e962";
+}
+.atlaicon-tcPropia:before {
+  content: "\e963";
+}
+.atlaicon-tcTerceros:before {
+  content: "\e964";
+}
+.atlaicon-thirdpartyTransfer:before {
+  content: "\e965";
+}
+.atlaicon-tools:before {
+  content: "\e966";
+}
+.atlaicon-townHall:before {
+  content: "\e967";
+}
+.atlaicon-transfers:before {
+  content: "\e968";
+}
+.atlaicon-transport:before {
+  content: "\e969";
+}
+.atlaicon-trash:before {
+  content: "\e96a";
+}
+.atlaicon-triangleDown:before {
+  content: "\e96b";
+}
+.atlaicon-tv:before {
+  content: "\e96c";
+}
+.atlaicon-user:before {
+  content: "\e96d";
+}
+.atlaicon-userCheck:before {
+  content: "\e96f";
+}
+.atlaicon-userChecks:before {
+  content: "\e970";
+}
+.atlaicon-userConfig:before {
+  content: "\e971";
+}
+.atlaicon-userLock:before {
+  content: "\e973";
+}
+.atlaicon-usersConfig:before {
+  content: "\e974";
+}
+.atlaicon-userWait:before {
+  content: "\e975";
+}
+.atlaicon-value:before {
+  content: "\e976";
+}
+.atlaicon-view:before {
+  content: "\e977";
+}
+.atlaicon-viewPicture:before {
+  content: "\e978";
+}
+.atlaicon-visa:before {
+  content: "\e979";
+}
+.atlaicon-visitBank:before {
+  content: "\e97a";
+}
+.atlaicon-warning:before {
+  content: "\e97b";
+}
+.atlaicon-waterTap:before {
+  content: "\e97c";
+}
+.atlaicon-world:before {
+  content: "\e97d";
+}
+

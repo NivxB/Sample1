@@ -1,0 +1,59 @@
+{
+	"currentRole": "customer",
+	"agent": {
+		"version": "1.2.1 QA",
+		"features": {
+			"friends": false,
+			"numericLogin": false,
+			"WithheldBalance": false,
+			"transferToPhone": false,
+			"transferToAccount": true,
+			"alerts": true,
+			"termsAndConditions": false,
+			"transactions": true,
+			"sendMoneyHomeIcon": false,
+			"cashIn": true,
+			"cashOut": true,
+			"registerUser": true,
+			"updateUser": true,
+			"blockUser": true,
+			"autoEnrollment": false,
+			"voucherCahsOut": true,
+			"transferToAtm": false,
+			"NoNumericLogin": true
+		},
+		"endPoints": {
+			"origin": "MAPPA",
+			"identificationType": "5",
+			"credentialType": "1"
+		}
+	},
+	"customer": {
+		"version": "1.2.1 QA",
+		"features": {
+			"friends": true,
+			"numericLogin": true,
+			"WithheldBalance": false,
+			"transferToPhone": true,
+			"transferToAccount": true,
+			"alerts": true,
+			"termsAndConditions": true,
+			"transactions": true,
+			"sendMoneyHomeIcon": true,
+			"cashIn": false,
+			"cashOut": false,
+			"registerUser": false,
+			"updateUser": false,
+			"blockUser": false,
+			"autoEnrollment": true,
+			"voucherCahsOut": false,
+			"transferToAtm": true,
+			"NoNumericLogin": false
+		},
+		"endPoints": {
+			"origin": "MAPPC",
+			"identificationType": "0",
+			"credentialType": "0"
+		}
+	}
+}

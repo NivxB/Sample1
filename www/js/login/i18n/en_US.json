@@ -1,0 +1,28 @@
+{
+	"login.TELEPHONE_NUMBER": "Cellphone Number",
+	"login.PIN": "PIN",
+	"login.REMEMBER_USER": "Remember User",
+	"login.LOG_IN": "Log In",
+	"login.LOG_OUT": "Log Out",
+	"login.FORGOT_PIN": "Forgot My PIN",
+	"login.ALL_RIGHTS_RESERVED": "All Rights Reserved",
+	"login.USE_TERMS": "Use Terms",
+	"login.FORGOT_PIN_DIALOG_TITLE": "Reset PIN or Password",
+	"login.FORGOT_PIN_DIALOG_MESSAGE": "To reset your forgotten PIN or password, you must contact our CallCenter. Do you want to call now?",
+	"login.SESSION_TIME_OUT": "Your session has expired.",
+	"login.USERNAME": "Username",
+	"login.PASSWORD": "Password",
+	"login.REGISTER_USER_BUTTON_TEXT": "Sign Me Up",
+	"login.FORGOT_PASSWORD": "Forgot My Password",
+
+	"login.error.SERVER_CONNECTION_ERROR": "Connection problem with the server.",
+	"login.error.INVALID_PHONE_OR_PIN": "Invalid Cellphone Number or PIN.",
+	"login.error.INVALID_USER_OR_PASS": "Invalid user or password",
+	"login.error.PIN_CHANGE_REQUIRED": "A change of PIN is required the first time you login",
+	"login.error.ACTIVE_SESSIONS_LIMIT_EXCEEDED": "Simultaneous sessions limit exceeded.",
+	"login.error.NOT_USER_PERMISSION_TO_CLIENT_APP": "Your user is locked, please contact a customer service officer.",
+	"login.error.GENERAL_LOGIN_ERROR": "Failed to login. Error code: ",
+	"login.error.PIN_HAS_EXPIRED": "Your PIN has expired, please proceed to change it.",
+	"login.error.CUSTOMER_TYPE_ERROR": "Invalid user type for this application.",
+	"general.APP_NAME":"App Name"
+}
