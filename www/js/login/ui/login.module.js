@@ -49,7 +49,7 @@
 					'main-content@abstAbt': {
 						templateUrl: 'js/login/ui/login.view.html',
 						dependencies: [
-							//'css!js/login/ui/css/login.min.css',
+							'css!js/login/ui/css/login.min.css',
 							'js/login/ui/login.controller.js'
 						]
 					}

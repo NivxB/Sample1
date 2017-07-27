@@ -1,15 +1,39 @@
 <ion-view ng-controller="loginController">
 	<ion-content scroll="false" class="app-login-content">
 		<div class="app-login-wrapper">
-
-			Login Page
-			
-			<button ng-click="callBackend()">Llamar Backend</button>
-			
-			<div>
-				{{municipios}}
+			<div class="background" ng-repeat="background in backgrounds" ng-hide="!background.isVisible" ng-style="{'background-image':'url(' + background.image + ')' }">
+			</div>
+			<div class="logo-wrapper">
+			</div>
+			<div class="welcome-wrapper">
+				<span>{{ 'login.welcome' | translate }}</span>
 			</div>
 
+			<div class="welcome-message">
+				<span>{{ 'login.message' | translate }}</span>
+			</div>
+			
+			<div class="login-button-wrapper">
+				<span> {{ 'login.login_with' | translate }} </span>
+				<div class="social-login-wrapper">
+					<div class="social-button" ng-repeat="sButton in socialLogin" ng-click="sButton.login()">
+						<div class="social-logo" >
+							<img ng-src="{{sButton.logo}}">
+						</div>
+						<span> {{ sButton.title }} </span>
+					</div>
+				</div>
+			</div>
+
+			<div class="sign-up-wrapper">
+				<span class="fucking-pipe">|</span>
+				<span ng-click="createAccount()">{{ 'login.create_account' | translate }}</span>
+				<span ng-click="signInLocal()">{{ 'login.sign_in' | translate }}	</span>				
+			</div>
+			
+			<div class="information" ng-click="information()">
+				<span class="icon ion-ios-information-outline"></button>
+			</div>
 		</div>
 	</ion-content>
 </ion-view>

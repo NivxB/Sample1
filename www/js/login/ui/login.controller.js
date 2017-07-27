@@ -20,28 +20,64 @@
         '$rootScope',
 		'fingerPrintAuth',
 		'keysStorage',
-		'$http'
+		'$http',
+		'$timeout'
 	];
 
 
-	function loginController($scope, $state, $ionicPopup, LayoutFactory, smartphoneServ, logonService, i18translate, $filter, $cordovaDevice, memento, sessionTimerService, $window, $rootScope, fingerPrintAuth, keysStorage,$http) {
-		LayoutFactory.showHeaderBarBtn(true);
+	function loginController($scope, $state, $ionicPopup, LayoutFactory, smartphoneServ, logonService, i18translate, $filter, $cordovaDevice, memento, sessionTimerService, $window, $rootScope, fingerPrintAuth, keysStorage,$http,$timeout) {
+		LayoutFactory.showHeaderBarBtn(false);
+		LayoutFactory.showHeader(false);
+		$scope.lastBackground = 0;
 
-		var config = {
-			headers: {
-				'Accept': 'application/json'
+		$scope.backgrounds = [{
+			'image':'img/login/fondo.png'
+		},{
+			'image':'img/login/fondo2.png'
+		}]
+
+		$scope.socialLogin = [{
+			title:"Facebook",
+			logo: "img/login/facebook.svg",
+			login: function(){
+				console.log("FB");
 			}
-		};
-		
-		$scope.municipios = "";
+		},{
+			title:"Google",
+			logo: "img/login/google.svg",
+			login: function(){
+				console.log("GG");
+			}
+		}]
+		$scope.init = function(){
+			function anim() {
+				if ($scope.lastBackground > 0){
+					$scope.backgrounds[$scope.lastBackground-1].isVisible = false;
+				}else{
+					$scope.backgrounds[$scope.backgrounds.length-1].isVisible = false;
+				}
+				$scope.backgrounds[$scope.lastBackground].isVisible = true;
+				$scope.lastBackground++;
+				$scope.lastBackground = $scope.lastBackground%$scope.backgrounds.length;
 
-		$scope.callBackend = function () {
-			$http.get("http://192.168.30.197:3000/api/Municipios", config).then(function (response) {
-				$scope.municipios = response;
-			}, function (response) {
-				console.log(response);
-			});
-		};
+			   	$timeout(anim, 5000);
+			}
+			anim();
+		}
+
+		$scope.createAccount = function(){
+			console.log("createAccount");
+		}
+
+		$scope.signInLocal = function(){
+			console.log("signUpLocal");
+		}
+
+		$scope.information = function(){
+			console.log("information")
+		}
+
+		$scope.init();
 	};
 
 })();

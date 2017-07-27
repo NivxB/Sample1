@@ -1,28 +1,7 @@
 {
-	"login.TELEPHONE_NUMBER": "Número de Celular",
-	"login.PIN": "PIN",
-	"login.REMEMBER_USER": "Recordar Usuario",
-	"login.LOG_IN": "Iniciar Sesión",
-	"login.LOG_OUT": "Cerrar Sesión",
-	"login.FORGOT_PIN": "Olvidé mi PIN",
-	"login.ALL_RIGHTS_RESERVED": "Derechos Reservados",
-	"login.USE_TERMS": "Términos de Uso",
-	"login.FORGOT_PIN_DIALOG_TITLE": "Restablecer PIN o Contraseña",
-	"login.FORGOT_PIN_DIALOG_MESSAGE": "Para restablecer tu PIN o contraseña olvidada, debes contactar a nuestro CallCenter. ¿Deseas llamar ahora?",
-	"login.SESSION_TIME_OUT": "Tu sesión ha expirado.",
-	"login.USERNAME": "Nombre de Usuario",
-	"login.PASSWORD": "Contraseña",
-	"login.REGISTER_USER_BUTTON_TEXT": "Registrarme",
-	"login.FORGOT_PASSWORD": "Olvidé Mi Contraseña",
-
-	"login.error.SERVER_CONNECTION_ERROR": "Problema de conexión con el servidor.",
-	"login.error.INVALID_PHONE_OR_PIN": "Número de Celular o PIN inválido.",
-	"login.error.INVALID_USER_OR_PASS": "Usuario o contraseña inválida.",
-	"login.error.PIN_CHANGE_REQUIRED": "Se requiere un cambio de PIN la primera vez que inicias sesión",
-	"login.error.ACTIVE_SESSIONS_LIMIT_EXCEEDED": "Límite de sesiones simultaneas excedido.",
-	"login.error.NOT_USER_PERMISSION_TO_CLIENT_APP": "Tu usuario se encuentra bloqueado, por favor comunícate con un oficial de atención al cliente.",
-	"login.error.GENERAL_LOGIN_ERROR": "Error al iniciar sesión. Código de error: ",
-	"login.error.PIN_HAS_EXPIRED": "Tu PIN o contraseña ha expirado, por favor procede a cambiarlo.",
-	"login.error.CUSTOMER_TYPE_ERROR": "Tipo de usuario inválido para esta aplicación.",
-	"general.APP_NAME":"App Name"
+	"login.welcome": "Bienvenidos a Guia2",
+	"login.message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	"login.login_with": "Iniciar Con:",
+	"login.create_account":"Crear Cuenta",
+	"login.sign_in":"Iniciar Sesion"
 }
